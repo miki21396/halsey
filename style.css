@@ -1,15 +1,22 @@
+/* header */
+
 header{
     font-family: 'Courier New', Courier, monospace;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
-    padding: 5px 10px;
-    background-color: mediumturquoise;
+    padding: 30px 10px;
+    align-items: center;
 }
 
 .header-right{
     align-items: center;
-    margin: auto;
 }
+
+.menu{
+    margin-left: 15px;
+}
+
+/* key visual in header */
 
 .kv{
     align-items: center;
@@ -18,8 +25,7 @@ header{
 .changekv{
     position: relative;
     width : 750px;
-    height : 563px;
-    border : 1px solid;
+    height : 550px;
     margin: 50px auto;
 }
 
@@ -27,7 +33,7 @@ header{
     position: absolute;
     top: 0;
     left: 0;
-    animation: changekv 10s infinite;
+    animation: changekv 8s infinite;
     opacity: 0;
 }
 
@@ -51,3 +57,62 @@ header{
 .changekv img:nth-of-type(4) {
     animation-delay: 6s;
 }
+
+/* about */
+
+.about1{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+
+h1::first-letter{
+    font-size: 2em;
+    color: mediumaquamarine;
+}
+
+.ash{
+    width: 340px;
+    height: 240px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 25px;
+    padding: 20px;
+}
+
+p.text{
+    margin-left: 20px;
+}
+
+/* songs */
+
+.songs1{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic{
+    width: 150px;
+    height: 150px;
+}
+
+/* link tag */
+
+a {
+    transition: color 0.3s;
+    font-weight: bold;
+  }
+  
+a:hover{
+    color : mediumaquamarine;
+  }
