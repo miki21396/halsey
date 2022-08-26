@@ -1,3 +1,5 @@
+html { scroll-behavior: smooth;}
+
 /* header */
 
 header{
@@ -180,6 +182,8 @@ a:hover{
         margin-block: auto;
     }
 
+    /* リンクタグの点消し */
+
 
 /* songs pic */
 
@@ -189,6 +193,8 @@ a:hover{
       margin: auto;
       overflow-x: auto;
       justify-content: start;
+      -webkit-overflow-scrolling: touch;
+      overflow-scrolling: touch;
     }
      
     .songs1 li { /* 各リストのスタイル */
