@@ -193,21 +193,19 @@ a:hover{
       margin: auto;
       overflow-x: auto;
       justify-content: start;
-      -webkit-overflow-scrolling: touch;
-      /* overflow-scrolling: touch; */
+      -webkit-overflow-scrolling: auto;
     }
      
     .songs1 li { /* 各リストのスタイル */
       width: 45%;
-      padding: 8px;
-      margin: 3px;
+      margin: 5px;
       flex-shrink: 0;
       list-style: none;
     }
      
     .songs1 img { /* 画像のスタイル */
-      width: 100%;
-      max-height: 200px;
+      width: 150px;
+      max-height: 150px;
       object-fit: cover;
     }
      
@@ -225,5 +223,10 @@ a:hover{
       border-radius: 6px; /* トラック両端の丸み */
     }
 
+    /* info */
+
+    imframe{
+        width: 240px;
+    }
 
 }
