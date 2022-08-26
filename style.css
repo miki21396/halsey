@@ -194,7 +194,7 @@ a:hover{
       overflow-x: auto;
       justify-content: start;
       -webkit-overflow-scrolling: touch;
-      overflow-scrolling: touch;
+      /* overflow-scrolling: touch; */
     }
      
     .songs1 li { /* 各リストのスタイル */
