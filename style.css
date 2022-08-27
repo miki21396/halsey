@@ -192,6 +192,26 @@ span{
 
   @media screen and (max-width: 767px) {
 
+    /* background */
+    body{
+        padding:5%;
+        }
+        body::before {
+        content:"";
+        display:block;
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:-1;
+        width:100%;
+        height:100vh;
+        background-repeat:no-repeat;
+        background-position:50% 100%;
+        background-image:url(./image/background.JPG);
+        background-size:cover;
+        }
+
+
     header{
         font-family: 'Courier New', Courier, monospace;
         /* padding: 30px 10px; */
@@ -252,16 +272,15 @@ span{
         margin-block: auto;
     }
 
-    /* リンクタグの点消し */
-
-
-/* songs pic */
+/* songs pic (scroll bar) */
 
  
     .songs1 { /* リスト全体のスタイル */
       display: flex;
       margin: auto;
       overflow-x: auto;
+      /* ↓テスト */
+      overflow-y: scroll; 
       justify-content: start;
       -webkit-overflow-scrolling: auto;
     }
@@ -307,11 +326,17 @@ span{
 
     .info1{
         display: block;
+        margin: 50px 0;
     }
 
     .video{
         margin: 10px;
         max-width: fit-content;
+    }
+
+    p.text2{
+        margin: 20px 0;
+        font-size: 14px;
     }
 
 }
