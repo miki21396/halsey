@@ -88,6 +88,7 @@ h1{
 
 p.text{
     margin-left: 20px;
+    align-items: center;
 }
 
 /* songs */
@@ -118,6 +119,20 @@ a {
 a:hover{
     color : mediumaquamarine;
   }
+
+.info1{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    font-size: 20px;
+   background: linear-gradient(transparent 70%, mediumaquamarine 70%);
+   width: fit-content;
+   margin-left: 100px;
+}
+
 
 
   /* responsive */
