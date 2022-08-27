@@ -1,5 +1,12 @@
 html { scroll-behavior: smooth;}
 
+body {
+    background-color: #f0f0f0;
+    background-image: url(./image/background.JPG);
+    background-attachment: fixed;
+    color: #000000;
+    }
+
 /* header */
 
 header{
@@ -120,10 +127,10 @@ a:hover{
     color : mediumaquamarine;
   }
 
-.info1{
-    margin: 20px;
-    display: flex;
-    align-items: center;
+/* info */
+
+.information{
+    text-align: center;
 }
 
 h3{
@@ -131,6 +138,26 @@ h3{
    background: linear-gradient(transparent 70%, mediumaquamarine 70%);
    width: fit-content;
    margin-left: 100px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.info1{
+    justify-content: center;
+}
+
+.video{
+    margin: 50px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+
+p.text2{
+    margin: 20px;
+    align-items: center;
 }
 
 
@@ -167,11 +194,13 @@ h3{
         max-width: 80%;
         align-items: center;
         height: 200px;
+        margin: auto;
     }
 
 
     .h1{
         margin: 0 auto;
+        padding: 0;
     }
 
     .ash{
@@ -240,8 +269,23 @@ h3{
 
     /* info */
 
-    imframe{
-        width: 240px;
+    iframe{
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    h3{
+        margin: auto;
+    }
+
+    .info1{
+        display: block;
+    }
+
+    .video{
+        margin: 10px;
+        max-width: fit-content;
     }
 
 }
