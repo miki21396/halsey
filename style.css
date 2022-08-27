@@ -278,9 +278,9 @@ span{
     .songs1 { /* リスト全体のスタイル */
       display: flex;
       margin: auto;
-      overflow-x: auto;
+      overflow-x: scroll;
       /* ↓テスト */
-      overflow-y: scroll; 
+      /* overflow-y: scroll;  */
       justify-content: start;
       -webkit-overflow-scrolling: auto;
     }
