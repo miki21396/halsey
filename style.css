@@ -193,9 +193,7 @@ span{
   @media screen and (max-width: 767px) {
 
     /* background */
-    body{
-        padding:5%;
-        }
+
         body::before {
         content:"";
         display:block;
@@ -256,6 +254,8 @@ span{
 
     .about1{
         display: block;
+        padding: 0px;
+        margin: 0px;
     }
 
     p.text{
@@ -337,6 +337,12 @@ span{
     p.text2{
         margin: 20px 0;
         font-size: 14px;
+    }
+
+    /* links */
+
+    span{
+        font-weight: lighter;
     }
 
 }
